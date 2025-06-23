@@ -92,7 +92,17 @@
     function loadPage(page) {
       document.getElementById('content-frame').src = page;
     }
+
+    function closeModal() {
+      document.getElementById('modalView').style.display = 'none';
+    }
+
+    window.addEventListener('click', function(e) {
+      const modal = document.getElementById('modalView');
+      if (e.target == modal) modal.style.display = 'none';
+    });
   </script>
+
 
 </body>
 </html>

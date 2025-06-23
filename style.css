@@ -202,3 +202,104 @@ a:hover, .btn:hover {
   }
 } 
 
+/* capaian.html */
+.capaian-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  background: #f8fbff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.capaian-left {
+  flex: 2;
+}
+
+.capaian-right {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h4 {
+  margin-bottom: 10px;
+  color: #1b6ef3;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.tag-biru {
+  background: #dceeff;
+  color: #1167b1;
+}
+
+.tabel-capaian {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tabel-capaian th,
+.tabel-capaian td {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+}
+
+.tabel-capaian th {
+  background-color: #f1f7ff;
+  color: #03254c;
+}
+
+.peringkat h4,
+.tren-peringkat h4 {
+  margin-bottom: 8px;
+  color: #03254c;
+}
+
+.tren-peringkat img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.info-box {
+  margin-top: 20px;
+  background: #dff9e4;
+  padding: 15px;
+  border-left: 5px solid #29adf4;
+  border-radius: 6px;
+  color: #107361;
+}
+
+.btn-rapor {
+  margin-top: 20px;
+  background-color: #29adf4;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-rapor:hover {
+  background-color: #1a96e1;
+}
